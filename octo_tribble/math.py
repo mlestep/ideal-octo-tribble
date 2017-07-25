@@ -16,4 +16,4 @@ def mult(a, b):
     """
     Function that multiplies two arguments
     """
-    return 2 + 5
+    return a * b
