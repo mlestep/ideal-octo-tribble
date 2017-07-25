@@ -8,4 +8,5 @@ from . import math
 from .math import mult
 # Now we can do octo_tribble.mult()
 
-#from stuff import awesome
+from .submodule.more_functs import awesome
+#from octo_tribble.stuff.things import awesome
