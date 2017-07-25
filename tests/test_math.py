@@ -22,6 +22,16 @@ def test_mult(a, b, expected):
     assert ot.math.mult(a, b) == expected
     assert ot.math.mult(b, a) == expected
 
-#def test_awesome():
+testdata2 = [
+    (1, 2, 95),
+    (0, 0, 42),
+    (-5, 10, 30167),
+    (2, 2, 110),
+    (3, 7, 7290),
+]
+
+@pytest.mark.parametrize("a,b,expected", testdata2)
+def test_awesome(a, b, expected):
+    assert ot.submodule.more_functs.awesome(a, b) == expected
 
 

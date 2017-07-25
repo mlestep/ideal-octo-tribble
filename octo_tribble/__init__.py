@@ -10,3 +10,5 @@ from .math import mult
 
 from .submodule.more_functs import awesome
 #from octo_tribble.stuff.things import awesome
+
+from .stuff.things import cool
